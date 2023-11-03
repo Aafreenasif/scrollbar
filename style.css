@@ -1,0 +1,98 @@
+#header{background-color: #015234;;
+    width: 250px;
+    height: 100%;
+    border: 1px solid #015234;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    overflow: auto;
+}
+::-webkit-scrollbar{width: 4px;
+    
+}
+::-webkit-scrollbar-thumb{background: #fff; border-radius: 5px;
+}
+*{padding: 0px;
+margin: 0px;}
+#body{color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    padding-left: 40px; 
+    padding-bottom: 20px;
+    padding-top: 20px;
+    justify-content: center;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+} 
+li{list-style: decimal-leading-zero; cursor: pointer; font-weight: 550;}
+#b{color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 50px;
+    cursor: pointer;
+
+}
+li:hover{color: #cbcbd4;}
+#content{
+    position: relative;
+    left: 250px;
+    width: calc(100% - 250px);
+    height: 100vh;
+    background-color: #cbcbd4;
+
+}
+#Selecter{color:black;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 40px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+
+}
+#hello{
+margin-top: 20px;
+padding: 15px 15px 15px 15px;
+margin-left: 20px;
+background-color:#04AA6D;;
+color: white;
+font-weight: 700;
+border: 1px solid #04AA6D;;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+}
+#hello:hover{
+    background-color: rgb(44, 43, 43);
+    border-color: rgb(44, 43, 43);
+}
+#hi{
+    margin-top: 20px;
+    padding: 15px 15px 15px 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 850px;
+    background-color:#04AA6D;;
+    color: white;
+    font-weight: 700;
+    border: 1px solid #04AA6D;;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    }
+    #hi:hover{
+        background-color: rgb(44, 43, 43);
+        border-color: rgb(44, 43, 43);
+    }
+.value{color: black;
+font-weight: 300;
+font-size: 17px;
+margin-top: 30px;
+margin-left: 30px;
+
+}
+hr{ color: white;
+margin-top: 20px;}
+.value:hover{color: black;}
